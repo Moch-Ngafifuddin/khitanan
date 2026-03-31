@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Playfair+Display:ital,wght@0,400;1,400&family=Lateef&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Quicksand", sans-serif; /* Font bulat yang friendly */
+  --font-arabic: "Lateef", serif;
+}
+
+:root {
+  --sage-green: #94a38e;
+  --soft-beige: #f4f1ea;
+  --warm-white: #faf9f6;
+  --text-main: #555d50;
+}
+
+body {
+  background-color: var(--warm-white);
+  color: var(--text-main);
+  font-family: "Quicksand", sans-serif; /* Menggunakan font yang lebih ramah */
+  scroll-behavior: smooth;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hiasan dedaunan halus untuk nuansa soft */
+.leaf-pattern {
+  background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+  opacity: 0.5;
+}
+
+h1,
+h2,
+h3,
+.font-serif {
+  font-family: "Playfair Display", serif !important;
+  font-weight: 400;
+}
